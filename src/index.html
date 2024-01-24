@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ポートフォリオ</title>
+    <meta
+      name="description"
+      content="Webサイト制作"
+    />
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- favicon/web-clip-icon -->
+    <link rel="icon" href="img/favicon.ico" type="image/ico">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <link rel="icon" href="img/favicon.svg" type="image/svg">
+    <link rel="apple-touch-icon" href="img/webclip.png">
+
+    <!-- ogp -->
+    <meta property="og:site_name" content="" />
+    <meta property="og:url" content="URL" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ポートフォリオ" />
+    <meta property="og:description" content="Webサイト制作" />
+    <meta property="og:image" content="URL" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="fb:app_id" content="AppID">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@twitter_id" />
+    <meta name="twitter:description" content="Webサイト制作" />
+    <meta name="twitter:image:src" content="URL" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+        <!-- js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.3/gsap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="js/main.js" defer></script>
+    
+  </head>
+  <body>
+    <!-- <div class="opening js_opening">
+      <div class="loader"></div>
+    </div> -->
+    <header class="l_header">
+      <h1 class="l_header-logo"><a href="index.html" class="l_header-logo_link"><!--ロゴ--></a></h1>
+      <div class="l_header-nav-wrapper">
+      <div class="m_hamburger js_hamburger">
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+        <span class="m_hamburger-bar"></span>
+      </div>
+      </div>
+    </header>
+    <nav class="l_header-nav js_navigation">
+      <ul class="l_header-nav_list">
+        <li class="l_header-nav_item">
+          <a href="index.html" class="l_header-nav_link js_header-nav_link">HOME</a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="#about" class="l_header-nav_link js_header-nav_link">ABOUT</a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="#skill" class="l_header-nav_link js_header-nav_link">SKILL</a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="#service" class="l_header-nav_link js_header-nav_link">SERVICE</a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="#works" class="l_header-nav_link js_header-nav_link">WORKS</a>
+        </li>
+        <li class="l_header-nav_item">
+          <a href="#contact" class="l_header-nav_link js_header-nav_link">CONTACT</a>
+        </li>
+      </ul>
+    </nav>
+
+  <!-- kv -->
+  <div class="top_kv">
+    <div class="top_kv_star">
+      <div class="top_kv_title-wrapper">
+        <h2 class="top_kv_title">
+          <span class="top_kv_title_word">あなたの魅力を</span>
+          <span class="top_kv_title_word"> Webサイトで</span>
+          <span class="top_kv_title_word">  アピールしませんか？</span>
+        </h2>
+      </div>
+      <div class="top_kv_scroll-wrapper">
+        <p class="top_kv_scroll-arrow">
+          <span class="top_kv_scroll-arrow_word">s</span>
+          <span class="top_kv_scroll-arrow_word">c</span>
+          <span class="top_kv_scroll-arrow_word">r</span>
+          <span class="top_kv_scroll-arrow_word">o</span>
+          <span class="top_kv_scroll-arrow_word">l</span>
+          <span class="top_kv_scroll-arrow_word">l</span>
+        </p>
+        <p class="top_kv_scroll-bar">⇃</p>
+      </div>
+    </div>
+  </div>
+  <!-- main -->
+  <main class="l_main">
+    <section class="top_about" id="about">
+      <div class="l_contents">
+      <h2 class="m_section_title js_section_title">ABOUT</h2>
+        <div class="l_container-sm">
+          <div class="top_profile ">
+            <div class="top_about_img-wrapper js_top_about_img-wrapper">
+              <img src="img/about.jpg" alt="profile" width="1108" height="1478" class="top_about_img">
+            </div>
+            <div class="top_about_item-wrapper js_top_about">
+              <p class="top_about_item">氏名<span class="top_about_item__answer"><!--氏名--></span></p>
+              <p class="top_about_item">出身<span class="top_about_item__answer"><!--出身地--></span></p>
+              <p class="top_about_item">趣味<span class="top_about_item__answer"><!--趣味--></span></p>
+            </div>
+          </div>
+          <p class="top_about_comment js_top_about">皆様のお力になれるよう、Web制作のお仕事の依頼を受け付けております。Webサイトのデザインからコーディング、WordPress化まで一連の流れの業務は可能です（一部のみの業務も受け付けております）。小さな相談やお仕事でも構いません。相談等ございましたら、いつでもご連絡お待ちしております。</p>
+          <div class="top_about_myself js_top_about_myself">
+          <div class="m_icon-wrapper">
+            <a href="" class="icon_link">
+            <img src="img/Instagram_icon.png" alt="Instagram" width="5000" height="5000" class="l_header-icon">
+            </a>
+          </div>
+          <div class="m_icon-wrapper">
+            <a href="" class="icon_link">
+            <img src="img/x_icon.png" alt="X" width="2400" height="2453" class="l_header-icon">
+            </a>
+          </div>
+          <button class="top_about_button">
+            <a href="" class="m_btn__detail">VIEW MORE<sapn class="m_btn__plus"></sapn></a>
+          </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="top_skill" id="skill">
+      <div class="l_contents">
+        <h2 class="m_section_title js_section_title">SKILL</h2>
+        <div class="l_container">
+          <ul class="top_skill_list">
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill.svg" alt="HTML" width="256" height="256" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">HTML</h3>
+              <p class="top_skill_desc">完成されたデザインを元にページ内の情報を構造化します。現在は、わかりやすいコードを勉強中です。</p>
+            </li>
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill02.svg" alt="CSS" width="256" height="256" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">CSS</h3>
+              <p class="top_skill_desc">Webサイトの色やサイズ、レイアウトなどのデザインを構築します。より凝ったデザインになるように勉強中です。</p>
+            </li>
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill03.png" alt="JS" width="" height="" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">JavaScript</h3>
+              <p class="top_skill_desc">ページ内に簡単な動きをつけることが可能です。</p>
+            </li>
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill04.svg" alt="JQuery" width="" height="" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">JQuery</h3>
+              <p class="top_skill_desc">簡単な動きから、凝った動きまでできます。よりお客様の要望に応えられるように勉強中です。</p>
+            </li>
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill05.svg" alt="WordPress" width="" height="" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">WordPress</h3>
+              <p class="top_skill_desc">お客様が管理しやすいような環境を最大限行います。例えば、専門的な知識がなくても記事の更新などを行えます。</p>
+            </li>
+            <li class="top_skill_item">
+              <div class="top_skill_icon-wrapper js_top_skill_icon-wrapper">
+                <img src="img/skill06.svg" alt="Figma" width="94" height="112" class="top_skill icon">
+              </div>
+              <h3 class="top_skill_title">Figma</h3>
+              <p class="top_skill_desc">お客様の要望に沿ったデザインの作成が可能です。ここで完成したデザインを元にサイト制作いたします。</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="top_service" id="service">
+      <div class="l_contents">
+        <h2 class="m_section_title js_section_title">SERVICE</h2>
+        <div class="l_container-lg">
+          <ul class="top_service_list">
+            <li class="top_service_item js_top_service_item">
+              <div class="top_service_img-wrapper">
+                <img src="img/service.jpg" alt="コーディング" width="1600" height="1066" class="top_service_img">
+              </div>
+              <h3 class="top_service_title">コーディング</h3>
+              <p class="top_service_desc">分かりやすいを意識してコーディングをしてまいります。</p>
+            </li>
+            <li class="top_service_item js_top_service_item">
+              <div class="top_service_img-wrapper">
+                <img src="img/service02.jpg" alt="修正" width="1600" height="1066" class="top_service_img">
+              </div>
+              <h3 class="top_service_title">修正</h3>
+              <p class="top_service_desc">お客様の要望に合わせた修正をします。また、修正のみのご依頼も受け付けておりますので、遠慮なくお申し付けください。</p>
+            </li>
+            <li class="top_service_item js_top_service_item">
+              <div class="top_service_img-wrapper">
+                <img src="img/service03.jpg" alt="Webサイト制作" width="1600" height="1066" class="top_service_img">
+              </div>
+              <h3 class="top_service_title">Webサイト制作</h3>
+              <p class="top_service_desc">ゼロからサイトの制作を行います。デザインから可能ですので気軽にお問い合わせください。</p>
+            </li>
+          </ul>
+        </div>
+        <h2 class="top_service_contents_title">Webサイト制作手順</h2>
+        <div class="l_container">
+          <ul class="top_service_contents_list">
+            <li class="top_service_contents_item js_top_service_contents_item">
+              <p class="top_service_contents_number">01</p>
+              <div class="top_service_content">
+                  <div class="top_service_content_img-wrapper">
+                    <img src="img/website.jpg" alt="01" width="1600" height="1371" class="top_service_content_img">
+                  </div>
+                  <div class="top_service_content_desc">
+                    <h3 class="top_service_content_desc_title">ヒアリング・お見積もり</h3>
+                    <p class="top_service_content_desc_txt">textが入りますtextが入りますtextが入りますtextが入ります</p>
+                  </div>
+              </div>
+            </li>
+            <li class="top_service_contents_item js_top_service_contents_item">
+              <p class="top_service_contents_number">02</p>
+                <div class="top_service_content">
+                  <div class="top_service_content_img-wrapper">
+                    <img src="img/website02.jpg" alt="02" width="1600" height="1067" class="top_service_content_img">
+                  </div>
+                  <div class="top_service_content_desc">
+                    <h3 class="top_service_content_desc_title">ご契約</h3>
+                    <p class="top_service_content_desc_txt">textが入りますtextが入りますtextが入りますtextが入ります</p>
+                  </div>
+              </div>
+            </li>
+            <li class="top_service_contents_item js_top_service_contents_item">
+              <p class="top_service_contents_number">03</p>
+              <div class="top_service_content">
+                  <div class="top_service_content_img-wrapper">
+                    <img src="img/website03.jpg" alt="03" width="1600" height="1066" class="top_service_content_img">
+                  </div>
+                  <div class="top_service_content_desc">
+                    <h3 class="top_service_content_desc_title">デザイン・コーディング</h3>
+                    <p class="top_service_content_desc_txt">textが入りますtextが入りますtextが入りますtextが入ります</p>
+                  </div>
+              </div>
+            </li>
+            <li class="top_service_contents_item js_top_service_contents_item">
+              <p class="top_service_contents_number">04</p>
+              <div class="top_service_content">
+                  <div class="top_service_content_img-wrapper">
+                    <img src="img/website04.jpg" alt="04" width="1600" height="1066" class="top_service_content_img">
+                  </div>
+                  <div class="top_service_content_desc">
+                    <h3 class="top_service_content_desc_title">サイト構築・納品</h3>
+                    <p class="top_service_content_desc_txt">textが入りますtextが入りますtextが入りますtextが入ります</p>
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="top_work" id="works">
+      <div class="l_contents">
+        <h2 class="m_section_title js_section_title">WORKS</h2>
+        <div class="l_container">
+          <ul class="top_work_list">
+            <li class="top_work_item js_work_item">
+              <div class="top_work_img-wrapper">
+                <img src="img/portfolio.png" alt="ポートフォリオ" width="1897" height="874" class="top_work_img">
+              </div>
+              <div class="top_work_desc">
+                <h3 class="top_work_desc_title">ポートフォリオ</h3>
+                <h3 class="top_work_desc_duration">制作期間：１か月</h3>
+                <p class="top_work_desc_txt">動きのあるサイトを意識して作りました。初めて実装するアニメーションをつけるのが困難だった。</p>
+              </div>
+            </li>
+            <li class="top_work_item js_work_item">
+              <div class="top_work_img-wrapper">
+                <img src="img/portfolio.png" alt="ポートフォリオ" width="1897" height="874" class="top_work_img">
+              </div>
+              <div class="top_work_desc">
+                <h3 class="top_work_desc_title">ポートフォリオ</h3>
+                <h3 class="top_work_desc_duration">制作期間：１か月</h3>
+                <p class="top_work_desc_txt">動きのあるサイトを意識して作りました。初めて実装するアニメーションをつけるのが困難だった。</p>
+              </div>
+            </li>
+            <li class="top_work_item js_work_item">
+              <div class="top_work_img-wrapper">
+                <img src="img/portfolio.png" alt="ポートフォリオ" width="1897" height="874" class="top_work_img">
+              </div>
+              <div class="top_work_desc">
+                <h3 class="top_work_desc_title">ポートフォリオ</h3>
+                <h3 class="top_work_desc_duration">制作期間：１か月</h3>
+                <p class="top_work_desc_txt">動きのあるサイトを意識して作りました。初めて実装するアニメーションをつけるのが困難だった。</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="top_contact" id="contact">
+      <div class="l_contents">
+        <h2 class="m_section_title js_section_title">CONTACT</h2>
+        <div class="l_container-lg">
+          <form action="" class="m_contact_form js_contact_form">
+            <dl class="m_contact_form_list">
+              <dt class="m_contact_form_heading">
+                会社名<span class="m_contact_form_example">例.株式会社sample</span>
+              </dt>
+              <dd class="m_contact_form_detail">
+                <input type="text" class="m_contact_form_input">
+              </dd>
+              <dt class="m_contact_form_heading">
+                お名前<span class="m_contact_form_example">例.山田太郎</span>
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_detail">
+                <input type="text" class="m_contact_form_input">
+              </dd>
+              <dt class="m_contact_form_heading">
+                フリガナ<span class="m_contact_form_example">例.ヤマダタロウ</span>
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_detail">
+                <input type="text" class="m_contact_form_input">
+              </dd>
+              <dt class="m_contact_form_heading">
+                電話番号<span class="m_contact_form_example">例.000-0000-0000</span>
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_detail">
+                <input type="text" class="m_contact_form_input">
+              </dd>
+              <dt class="m_contact_form_heading">
+                メールアドレス<span class="m_contact_form_example">例.sample@sample.com</span>
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_detail">
+                <input type="email" class="m_contact_form_input">
+              </dd>
+              <dt class="m_contact_form_heading">
+                お問い合わせ項目
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_other">
+                <ul class="m_contact_form_list">
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="1">
+                <label for="1" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="2">
+                <label for="2" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="3">
+                <label for="3" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="4">
+                <label for="4" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="5">
+                <label for="5" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                  <li class="m_contact_form_item">
+                <input type="checkbox" name="request" class="m_contact_form_checkbox" id="6">
+                <label for="6" class="m_contact_form_label">依頼内容が入ります</label>
+                  </li>
+                </ul>
+              </dd>
+              <dt class="m_contact_form_heading">
+                お問い合わせ内容
+                <span class="m_contact_form_required">必須</span>
+              </dt>
+              <dd class="m_contact_form_other">
+                <textarea  class="m_contact_form_textarea"></textarea>
+              </dd>
+            </dl>
+            <div class="m_btn-wrapper m_contact_form_btn-wrapper">
+              <input class="m_btn m_btn__more" type="submit" value="送信する">
+            </div>    
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="l_footer">
+    <div class="l_footer-wrapper">
+    <div class="l_footer-logo-wrapper">
+      <h2 class="l_footer-logo">
+        <a href="index.html" class="l_footer-logo_link"><!--ロゴ--></a>
+      </h2>
+      <p class="l_footer_info">Email: <a href="mailto:sample@sample.com" class="l_footer_info_link">sample@sample.com</a></p>
+      <p class="l_footer_info">TEL: <a href="tel:000-0000-0000">000-0000-0000</a></p>
+      <div class="l_footer_icon_list">
+        <div class="m_icon-wrapper">
+          <a href="" class="icon_link">
+            <img src="img/Instagram_icon.png" alt="Instagram" width="5000" height="5000" class="l_header-icon">
+          </a>
+        </div>
+        <div class="m_icon-wrapper">
+          <a href="" class="icon_link">
+            <img src="img/x_icon.png" alt="X" width="2400" height="2453" class="l_header-icon">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="l_footer-nav">
+      <ul class="l_footer-nav_list">
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            HOME
+          </a>
+        </li>
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            ABOUT
+          </a>
+        </li>
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            SKILL
+          </a>
+        </li>
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            SERVICE
+          </a>
+        </li>
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            WORKS
+          </a>
+        </li>
+        <li class="l_footer-nav_item">
+          <a href="" class="l_footer-nav_link">
+            CONTACT
+          </a>
+        </li>
+      </ul>
+    </div>
+    </div>
+    <p class="l_footer_copyright">
+    <small class="l_footer-copyright_txt">&copy;2024</small>
+    </p>
+  </footer>
+</body>
+</html>
